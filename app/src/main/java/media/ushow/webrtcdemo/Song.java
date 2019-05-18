@@ -3,7 +3,7 @@ import java.io.File;
 import java.io.Serializable;
 
 import media.ushow.utils.FilePathUtil;
-import media.ushow.utils.StringUtil;
+import media.ushow.utils.StringUtils;
 
 
 public class Song implements Serializable {
@@ -204,15 +204,15 @@ public class Song implements Serializable {
 
 
 	public boolean isZrcExist() {
-		return !StringUtil.isEmpty(getZrc()) && getZrc().endsWith(".zrce");
+		return !StringUtils.isEmpty(getZrc()) && getZrc().endsWith(".zrce");
 	}
 
 	public boolean isZbdExist() {
-		return !StringUtil.isEmpty(getZbd()) && getZbd().endsWith(".zbd");
+		return !StringUtils.isEmpty(getZbd()) && getZbd().endsWith(".zbd");
 	}
 
 	public boolean isMusicExist() {
-		return !StringUtil.isEmpty(getMusic()) && getMusic().endsWith(".mp3");
+		return !StringUtils.isEmpty(getMusic()) && getMusic().endsWith(".mp3");
 	}
 
 	public boolean isStandardSong() {

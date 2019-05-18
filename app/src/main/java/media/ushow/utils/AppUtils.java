@@ -1,4 +1,4 @@
-package media.ushow.webrtcdemo;
+package media.ushow.utils;
 
 import android.Manifest;
 import android.app.ActivityManager;
@@ -9,6 +9,8 @@ import android.content.pm.PackageManager;
 import android.support.annotation.RequiresPermission;
 
 import java.util.List;
+
+import media.ushow.webrtcdemo.MyApplication;
 
 /**
  * <pre>

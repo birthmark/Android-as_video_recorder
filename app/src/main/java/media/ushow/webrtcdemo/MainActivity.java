@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 import java.util.List;
 
+import media.ushow.utils.PermissionManager;
+
 public class MainActivity extends AppCompatActivity {
 
     // Used to load the 'native-lib' library on application startup.

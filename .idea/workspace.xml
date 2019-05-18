@@ -12,17 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5f16a42-bf8c-4958-8017-eea7f2e6a2d4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/AppUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/MyApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/OSUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/PermissionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/SettingsUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/StringUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/media/ushow/utils/StringUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/AppUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/media/ushow/utils/AppUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/OSUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/media/ushow/utils/OSUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/PermissionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/media/ushow/utils/PermissionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/SettingsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/media/ushow/utils/SettingsUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/media/ushow/utils/StringUtils.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,15 +43,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gradle-wrapper.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,19 +53,28 @@
         </entry>
       </file>
       <file leaf-file-name="StringUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/StringUtils.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/utils/StringUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="91">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <caret line="20" column="24" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Song.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/Song.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="226">
-              <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+              <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
               <folding>
                 <element signature="e#1485#2454#0" expanded="true" />
                 <element signature="e#2453#2454#0" expanded="true" />
@@ -86,19 +84,19 @@
         </entry>
       </file>
       <file leaf-file-name="PermissionManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/PermissionManager.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/utils/PermissionManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3471">
-              <caret line="287" column="18" selection-start-line="287" selection-start-column="18" selection-end-line="287" selection-end-column="18" />
+            <state relative-caret-position="218">
+              <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="SettingsUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/SettingsUtils.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/utils/SettingsUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1095">
-              <caret line="24" column="40" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="52" />
+            <state relative-caret-position="123">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,9 +105,9 @@
         </entry>
       </file>
       <file leaf-file-name="OSUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/OSUtils.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/utils/OSUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
+            <state relative-caret-position="123">
               <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -119,10 +117,10 @@
         </entry>
       </file>
       <file leaf-file-name="AppUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/AppUtils.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/utils/AppUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="133">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,6 +158,8 @@
     <findStrings>
       <find>appui</find>
       <find>appu</find>
+      <find>StringUtils</find>
+      <find>StringUtil.is</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -2474,6 +2474,9 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/StringUtils.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/media/ushow/utils/StringUtil.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/media/ushow/utils/StringUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/Song.java" />
       </list>
     </option>
   </component>
@@ -2568,6 +2571,13 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="ushow" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Android-as_video_recorder" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="ushow" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Android-as_video_recorder" type="1abcf292:AndroidViewProjectNode" />
@@ -2775,6 +2785,7 @@
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2495854" />
       <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.35312024" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
@@ -2787,7 +2798,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -2819,14 +2829,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/PermissionManager.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/utils/PermissionManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3471">
           <caret line="287" column="18" selection-start-line="287" selection-start-column="18" selection-end-line="287" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/SettingsUtils.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/utils/SettingsUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="24" column="40" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="52" />
@@ -2836,7 +2846,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/OSUtils.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/utils/OSUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -2845,7 +2855,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/AppUtils.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/utils/AppUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
@@ -2893,13 +2903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/PermissionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3471">
-          <caret line="287" column="18" selection-start-line="287" selection-start-column="18" selection-end-line="287" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
@@ -2927,19 +2930,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/AppUtils.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="226">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1485#2454#0" expanded="true" />
+            <element signature="e#2453#2454#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/OSUtils.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/utils/OSUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
+        <state relative-caret-position="123">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -2947,31 +2951,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/SettingsUtils.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/utils/AppUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1095">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="52" />
+        <state relative-caret-position="133">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/StringUtils.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/utils/PermissionManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="218">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/utils/StringUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        <state relative-caret-position="78">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/utils/SettingsUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
-            <element signature="e#1485#2454#0" expanded="true" />
-            <element signature="e#2453#2454#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/utils/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/media/ushow/webrtcdemo/Song.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
         </state>
       </provider>
     </entry>
